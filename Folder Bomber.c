@@ -1,6 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <sys/stat.h>
+#include <string.h>
+
+#ifdef _WIN32
+    #include <io.h>
+    #define MKDIR(path) mkdir(path)
+#else
+    #include <sys/stat.h>
+    #define MKDIR(path) mkdir(path, 0777)
+#endif
 
 int main() {
     int i = 0;
@@ -8,7 +16,7 @@ int main() {
 
     while (1) {
         snprintf(dirname, sizeof(dirname), "%d", i);
-        if (mkdir(dirname, 0777) != 0) {
+        if (MKDIR(dirname) != 0) {
             perror("mkdir failed");
             break;
         }

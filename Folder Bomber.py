@@ -1,4 +1,4 @@
 import os
 i = 0
 while True:
-    os.mkdir(i)
+    os.mkdir(str(i))

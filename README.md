@@ -40,3 +40,7 @@ go run "Filename.go"
 - People who want to test system or network performance.
 - People who are interested in legal hacking and cybersecurity.
 - Programmers who want to learn how to stress test a system.
+
+## Ways to contact me:
+- github : arash138814
+- arashranjbar599@gmail.com

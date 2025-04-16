@@ -22,5 +22,16 @@ To run these scripts, you will need:
 - GCC (for .c files)
 - A test environment (e.g. a virtual machine) that will not harm your system.
 
-🌟 SEO Keywords
-Ethical Hacking Tools, OS Stress Testing, Python Penetration Testing, Go Lang Security Tools, Browser Crash Exploit, RAM Overload Tester, Folder Bomb Generator, Cybersecurity Research
+### How do I install?
+- 1.Download the project:
+```bash
+git clone https://github.com/arash138814/bypass-av.git
+cd bypass-av.git
+```
+- 2. Code execution:
+```bash
+python "FileName.py"
+gcc "FileName.c" -o test.exe & ./test.exe
+go run "Filename.go"
+".\Filename.ps1"
+```

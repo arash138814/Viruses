@@ -16,11 +16,11 @@ This project includes several scripts for **system and network stress testing**.
 
 ## What do I need?
 To run these scripts, you will need:
-Python 3 (for .py files)
-Go (for .go files)
-PowerShell (for .ps1 files)
-GCC (for .c files)
-A test environment (e.g. a virtual machine) that will not harm your system.
+- Python 3 (for .py files)
+- Go (for .go files)
+- PowerShell (for .ps1 files)
+- GCC (for .c files)
+- A test environment (e.g. a virtual machine) that will not harm your system.
 
 🌟 SEO Keywords
 Ethical Hacking Tools, OS Stress Testing, Python Penetration Testing, Go Lang Security Tools, Browser Crash Exploit, RAM Overload Tester, Folder Bomb Generator, Cybersecurity Research

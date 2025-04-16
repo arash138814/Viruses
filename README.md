@@ -28,7 +28,7 @@ To run these scripts, you will need:
 git clone https://github.com/arash138814/bypass-av.git
 cd bypass-av.git
 ```
-- 2. Code execution:
+- 2.Code execution:
 ```bash
 python "FileName.py"
 gcc "FileName.c" -o test.exe & ./test.exe

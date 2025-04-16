@@ -9,21 +9,10 @@ This project includes several scripts for **system and network stress testing**.
 
 - `📂 Folder Bomber`
   ➤ This script creates a whole folder with consecutive names (1 to N) and causes the operating system to hang.
-  ➤ python "Folder Bomber.py"
-  ➤ gcc "Folder Bomber.c" -o "Folder-Bomber.exe" & .\Folder-Bomber.exe
-  ➤ go run "Folder Bomber.go"
-  ➤ "Folder Bomber.ps1"
 - `💻 RAM and CPU Consumption`
   ➤ This script unnecessarily consumes CPU and RAM and causes the system to hang.
-  ➤ python "RAM and CPU consumption.py"
-  ➤ gcc "RAM and CPU consumption.c" -o "RAM-and-CPU-consumption.exe" & .\RAM-and-CPU-consumption.exe
-  ➤ go run "RAM and CPU consumption.go"
-  ➤ "RAM and CPU consumption.ps1"
 - `🌐 URL Bomber`
   ➤ This script crashes the browser by quickly opening Google (or any other URL) and may even freeze the system. Unfortunately, you can't open the browser directly in C, so I didn't write this script in C.
-  ➤ python "URL Bomber.py"
-  ➤ go run "URL Bomber.py"
-  ➤ "URL Bomber.ps1"
 
 ## What do I need?
 To run these scripts, you will need:

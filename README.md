@@ -43,4 +43,4 @@ go run "Filename.go"
 
 ## Ways to contact me:
 - github : arash138814
-- arashranjbar599@gmail.com
+- email : arashranjbar599@gmail.com
